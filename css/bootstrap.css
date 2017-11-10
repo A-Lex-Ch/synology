@@ -35,6 +35,27 @@
   --font-family-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+
 @media print {
   *,
   *::before,
@@ -640,16 +661,35 @@ pre code {
   margin-left: auto;
 }
 
+@media (max-width: 576px) {
+
+  .topSearch {
+    top: 235px;
+    z-index: 1000;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .topSearch {
+    top: 235px;
+    z-index: 1000;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
+
 }
 
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
+
 }
 
 @media (min-width: 992px) {
