@@ -655,11 +655,66 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  /*padding-right: 15px;
+  padding-left: 15px;*/
   margin-right: auto;
   margin-left: auto;
 }
+
+
+@media (max-width: 575px) {
+  #headerLine #headerLineLeft .mainContentleftArrow > span {
+    width: 50px;
+  }
+  #footerRight {
+    display: block;
+    width: 100%;
+  }
+  #footerRight {
+    display: block;
+    width: 100%;
+  }
+  #footer {
+    height: auto;
+  }
+  #footerRight > ul > li{
+    width: auto;
+  }
+  #headerLeft .logo{
+    padding-top: 0;
+  }
+  #headerLeft .search{
+    width: 350px!important;
+  }
+  #headerLeft .search table.top {
+    margin: 0 10px;
+  }
+  #ancillary > ul > li{
+    width: 100%!important;
+  }
+  .product .price{
+    width: auto;
+    heght: auto;
+  }
+  #mainContent{
+    margin-top: 20px;
+  }
+  }
+
+@media (max-width: 765px) {
+  #footerRight {
+    display: block;
+    width: 100%;
+  }
+  #footerRight {
+    display: block;
+    width: 100%;
+  }
+  #footer {
+    height: auto;
+  }
+}
+
 
 @media (min-width: 576px) {
   .container {
