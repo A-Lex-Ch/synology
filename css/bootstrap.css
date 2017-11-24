@@ -678,7 +678,7 @@ pre code {
     height: auto;
   }
   #footerRight > ul > li{
-    width: auto;
+    width: 100%;
   }
   #headerLeft .logo{
     padding-top: 0;
@@ -694,12 +694,41 @@ pre code {
   }
   .product .price{
     width: auto;
-    heght: auto;
+    height: auto;
   }
   #mainContent{
     margin-top: 20px;
   }
+  #headerRight{
+    width: 374px;
   }
+  #headerRight .contacts .social{
+    width: 210px;
+  }
+  #headerTop .headerTopRight .headerLineRight{
+  float: right;
+  box-sizing: border-box;
+  width: 138px;
+  }
+
+  #headerTop .headerTopRight .headerLineRight #topCart {
+    float: right;
+    padding-right: 5px;
+  }
+
+  #headerTop .headerTopRight {
+    float: right;
+    width: auto;
+  }
+
+  #headerTop .headerTopMiddle{
+    padding-left: 45px;
+    line-height: 32px;
+    float: left;
+    display: block;
+  }
+  }
+
 
 @media (max-width: 765px) {
   #footerRight {
@@ -713,6 +742,13 @@ pre code {
   #footer {
     height: auto;
   }
+  #footerRight > ul > li{
+    width: 100%;
+  }
+  #mainContent{
+    margin-top: 20px;
+  }
+
 }
 
 
