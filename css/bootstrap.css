@@ -675,7 +675,7 @@ pre code {
     width: 100%;
   }
   #footer {
-    height: auto;
+    height: 100%;
   }
   #footerRight > ul > li{
     width: 100%;
@@ -691,6 +691,7 @@ pre code {
   }
   #ancillary > ul > li{
     width: 100%!important;
+    margin-left: 0px;
   }
   .product .price{
     width: auto;
@@ -706,11 +707,10 @@ pre code {
     width: 210px;
   }
   #headerTop .headerTopRight .headerLineRight{
-  float: right;
-  box-sizing: border-box;
-  width: 138px;
+    float: right;
+    box-sizing: border-box;
+    width: 75%;
   }
-
   #headerTop .headerTopRight .headerLineRight #topCart {
     float: right;
     padding-right: 5px;
@@ -720,14 +720,28 @@ pre code {
     float: right;
     width: auto;
   }
-
-  #headerTop .headerTopMiddle{
-    padding-left: 45px;
-    line-height: 32px;
+  #headerTop .topSearch {
+    padding-left: 5px;
+    width: 145px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  #headerTop .headerTopLeft {
     float: left;
-    display: block;
+    width: 50%;
   }
+  #headerTop .headerTopRight {
+    float: right;
+    width: 50%;
   }
+#headerLine #headerLineLeft, #headerLineRight{
+  width: 50%;
+}
+  #headerLineRight a.oCompare{
+    margin-left: auto;
+    width: auto;
+  }
+}
 
 
 @media (max-width: 765px) {
@@ -740,15 +754,34 @@ pre code {
     width: 100%;
   }
   #footer {
-    height: auto;
+    height: 100%;
   }
   #footerRight > ul > li{
     width: 100%;
+    margin-left: 0px;
   }
   #mainContent{
     margin-top: 20px;
   }
-
+  #headerTop .topSearch {
+    padding-left: 45px;
+    width: 235px;
+    box-sizing: border-box;
+    position: absolute;
+  }
+  #headerTop .headerTopRight .headerLineRight{
+    float: right;
+    box-sizing: border-box;
+    width: 75%;
+  }
+  #headerTop .headerTopLeft {
+    float: left;
+    width: 50%;
+  }
+  #headerTop .headerTopRight {
+    float: right;
+    width: 50%;
+  }
 }
 
 
